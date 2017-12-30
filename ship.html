@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Great+Vibes" rel="stylesheet">
+	<style type="text/css"> * {
+		text-align: center;
+		margin: auto;
+		font-family: 'Encode Sans Expanded', sans-serif;
+	}
+	h1 {
+		font-family: 'Great Vibes', cursive;
+	}
+	</style>
+	<title>Ship Name Generator</title>
+</head>
+<body> 
+	<h1>Ship Name Generator</h1>
+	<p>Put in the name of the two people you would like to ship (3 person ship support coming soon). Then, you may view the results of the combonations below the names you put in.</p>
+	<form>
+		First Name: <input type="text" name="name1"> <br>
+		Second Name: <input type="text" name="name2"> <br>
+		<button type="button" value="" onclick="nameGen(this.form)">Generate</button>
+	</form>
+	<p id="final-name"></p>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
